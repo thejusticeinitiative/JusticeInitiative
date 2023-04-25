@@ -255,7 +255,7 @@ input:focus, textarea:focus, *:required:focus{border-color:#BD1F2F;}
 
 
 /* Content Area */
-.elements figure figcaption{color:#FFFFFF; background:rgba(0,0,0,.5);}
+.elements figure figcaption{color:#FFFFFF; background:rgba(255,255,255,.5);}
 
 
 /* Footer */
