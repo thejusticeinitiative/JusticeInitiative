@@ -34,7 +34,7 @@ File: Layout CSS
 
 #header #logo{}
 #header #logo *{margin:0; padding:0; line-height:1;}
-#header #logo h1{font-size:42px; letter-spacing:5px; text-transform:uppercase;}
+#header #logo h1{/* font-size:42px; */font-size:50px; letter-spacing:4px; /* text-transform:uppercase; */ font-family: 'Noto Serif', serif; /* color:#1C1F22 */}
 #header #logo p{margin-top:-3px; font-size:.9rem; font-style:italic; text-transform:lowercase;}
 
 
@@ -165,7 +165,7 @@ nav ul, nav ol{margin:0; padding:0; list-style:none;}
 #mainav form select option{margin:5px; padding:0; border:none;}
 
 /* Breadcrumb */
-#breadcrumb{padding:50px 0; text-align:center; text-transform:uppercase;}
+#breadcrumb{padding:40px 0; text-align:center; text-transform:uppercase;}
 #breadcrumb ul{margin:0; padding:0; list-style:none;}
 #breadcrumb li{display:inline-block; margin:0 6px 0 0; padding:0;}
 #breadcrumb li a{display:block; position:relative; margin:0; padding:0 12px 0 0; font-size:12px;}
@@ -236,10 +236,10 @@ input:focus, textarea:focus, *:required:focus{border-color:#BD1F2F;}
 
 
 /* Rows */
-.row0{color:#797979; background-color:#F9F9F9; border-color:#D7D7D7;}
-.row1{color:#797979; background-color:#FFFFFF;}
-.row2, .row2 a{color:#797979; background-color:#E5E5E5;}/*Modified background navbar color*/
-.row3{color:#797979; background-color:#FFFFFF;}
+.row0{color:#4a4a4a; background-color:#F9F9F9; border-color:#D7D7D7;}
+.row1{color:#4a4a4a; background-color:#FFFFFF;}
+.row2, .row2 a{color:#4a4a4a; background-color:#E5E5E5;}/*Modified background navbar color*/
+.row3{color:#4a4a4a; background-color:#FFFFFF;}
 .row4{color:#8A8A8A; background-color:#27292C;}
 .row5, .row5 a{color:#8A8A8A; background-color:#27292C;}
 .row6{color:#FFFFFF; background-color:#393C40;}
